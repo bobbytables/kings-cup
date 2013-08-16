@@ -1,0 +1,11 @@
+<%= @current_player.name %>
+<hr>
+Your card: <%= @selected_card.name %>
+<hr>
+Your mission, <small>should you choose to accept it (<span style="font-size: 4px">Which you have too</span>)</small>
+<hr>
+<%= Card.mission_for(@selected_card) %>
+
+<hr>
+
+<%= link_to 'Next Player' %>

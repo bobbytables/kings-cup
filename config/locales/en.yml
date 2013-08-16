@@ -1,23 +1,17 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
   hello: "Hello world"
+
+  cards:
+    card_king: 'Poor half thy beer into the kings cup'
+    card_queen: 'Questions: If the last person to receive queen asks you a question and you respond, DRINK'
+    card_jack: 'Never have I ever. If youve done it, DRINK'
+    card_ace: 'Waterfall: Drink until the person to your right stops'
+    card_2: "Is you! Pick someone to DRINK"
+    card_3: "Me! DRINK"
+    card_4: "Whores. Blame it on the alcohol baby. DRINK LADIES."
+    card_5: "MAKE A RULE: Make a rule that has to be followed until the 5 is chosen. You must follow the rule || DRINK."
+    card_6: "Dicks.all.drink()"
+    card_7: "Thumbmaster: If the thumb is on the table from this person, the last person to put their thumb on the table: DRINK!"
+    card_8: "MATE: Any time I drink you drink."
+    card_9: "BUSTA RHYME: You say a word and that must be rhymed around the table, first person to not rhyme or takes a long time (hah!) DRINK"
+    card_10: "CATEGORIES: Pick a category and everyone around the table must Object.new in the category. First person to take a long time or fail to succeed. DRINK"

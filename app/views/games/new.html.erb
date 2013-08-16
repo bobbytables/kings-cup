@@ -1,0 +1,20 @@
+<%= simple_form_for @game do |form| %>
+  <div id="container">
+    <%= form.simple_fields_for :game_players do |ff| %>
+      <div>
+        <%= ff.association :player %>
+        <a href="#" class="destroy">×</a>
+      </div>
+    <% end %>
+  </div>
+
+  <a href="#" id="add_another">+ add another</a>
+  <hr />
+  <%= form.submit %>
+<% end %>
+
+<script type="text/javascript">
+  $("#container").nestedAttributes({
+    bindAddTo: $("#add_another")
+  });
+</script>
